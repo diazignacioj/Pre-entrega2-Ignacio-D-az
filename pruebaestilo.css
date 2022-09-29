@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+ul{
+    font-family: 'Rubik', sans-serif;
+    color: #322422;
+    font-weight:bold;
+    text-align:right;
+    font-size: 1.6rem;
+}
+#barranav{
+    display: flex;
+    align-content: flex-end;
+    background-color: white;
+    position: relative;
+}
+.navbar-brand{
+    display: flex;
+    justify-content: left;
+    position: relative;
+    left: 5.5%;
+}
+.navbar-toggler{
+    position: relative;
+    right: 5.5%;
+    justify-content: right;
+}
+#barranav::after{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    content: " ";
+    background-image: linear-gradient(to right, #322422, #6b4633, #ad8c7b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    width: 100%;
+    height: 20px;
+    filter:blur(20px);
+    z-index: -1;
+}
+.navbar-collapse {
+    display: flex;
+    align-content: flex-end;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+#navbarNav{
+    flex-basis: 100%;
+    flex-grow: 1;
+    position: relative;
+    right: 5.5%;
+    justify-content: right;
+}
+.row{
+    display: flex;
+    justify-content:center;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+    
+}
+#contenido-home{
+    display: flex;
+    position: relative;
+}
+.col-md-5{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    background-color: #ad8c7b;
+    background-position: center;
+}
+#col-md-7{
+    max-width: 100%;
+}
+
+.construcciones{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: lighter;
+    font-size: 2.3rem;
+}
+.desdecero{
+    font-family: 'Rubik', sans-serif;
+    font-size: 5rem;
+    font-weight:bold;
+}
+.remodela{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color: white;
+    text-align:center;
+    font-size: 1.5rem;
+}
+.tablacontacto{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.contacto{
+    font-family: 'Rubik', sans-serif;
+    font-size: 5rem;
+    font-weight:bold;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+}
+.mb-3{
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
+}
+#nombreid{
+    margin-top: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #ad8c7b;
+}
+#emailid{
+    margin-top: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #ad8c7b;
+}
+#consultaid{
+    margin-top: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #ad8c7b;
+}
+.nombre{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    font-weight:bold;
+}
+.email{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    font-weight:bold;
+}
+.consulta{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    font-weight:bold;
+}
+#boton{
+    background: #322422;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: #ad8c7b;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    position: relative;
+}
+#boton:hover{
+    background: #ad8c7b;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: #322422;
+    font-size: 2rem;
+    cursor: pointer;
+}
+footer{
+    margin-top: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #322422 ;
+    text-align: center;
+}
